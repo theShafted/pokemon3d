@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b4eb066f1264aceaa62904798c9030, type: 3}
+  m_Name: Ghostmon
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 646280518255580597, guid: f60a0753363fe4f76a030758fd737349, type: 3}
+  _name: Ghostmon
+  _types: 0400000000000000
+  _baseStats:
+  - _stat: 0
+    _value: 30
+  - _stat: 1
+    _value: 35
+  - _stat: 2
+    _value: 30
+  - _stat: 3
+    _value: 80
+  - _stat: 4
+    _value: 100
+  - _stat: 5
+    _value: 35
+  _learnableMoves:
+  - _move: {fileID: 11400000, guid: e158d0e8a5e414bcf8129ecb50e0e690, type: 2}
+    _level: 1
+  - _move: {fileID: 11400000, guid: 1e631ea1d7d73406db0f2ac045c9f397, type: 2}
+    _level: 4
+  - _move: {fileID: 11400000, guid: 5a1044a9e601a49978b61d1429005ead, type: 2}
+    _level: 7
+  - _move: {fileID: 11400000, guid: f15884672ff3142f3971985844e71195, type: 2}
+    _level: 5
+  - _move: {fileID: 11400000, guid: 33f7a2c00c45b42cf8d2cdba7b032071, type: 2}
+    _level: 10

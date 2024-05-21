@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34fa1e53de2649719fd682bd091cc0b, type: 3}
+  m_Name: MessageData
+  m_EditorClassIdentifier: 
+  _messages:
+  - _type: 1
+    _message: ' appeared.'
+  - _type: 2
+    _message: ' would like to battle.'
+  - _type: 3
+    _message: 'Go '
+  - _type: 4
+    _message: 'You defeated '
+  - _type: 5
+    _message: You are out of usable Pokemon.
+  - _type: 6
+    _message: ' fainted.'
+  - _type: 7
+    _message: 'It was super effective on '
+  - _type: 8
+    _message: 'It was not very effective on '
+  - _type: 9
+    _message: 'It doesn''t affect '
+  - _type: 10
+    _message: ' come back.'
+  - _type: 11
+    _message: ' used '
+  - _type: 12
+    _message: A critical hit.
+  - _type: 13
+    _message: ' was raised by '
+  - _type: 14
+    _message: ' was lowered by '
